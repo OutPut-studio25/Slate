@@ -1,4 +1,3 @@
-===============================================================================
 This is a terminal based desktop environment called Slate.
 
 Description 
