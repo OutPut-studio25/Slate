@@ -82,3 +82,5 @@ Credits
    *  At the very end it adds users word
 *  Talking Tom
    *  Does not belong to me in anyway and Outfit7 has full control so be careful
+*  Terminal app was taken and tweaked from code made by geeksforgeeks
+   *  I'll edit this to make my own one day (maybe)
