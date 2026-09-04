@@ -69,47 +69,47 @@ int main(int argc, char **argv)
       //Menu
       switch (getch())
       {
-      case 'q':
-      case 'Q':
-         endwin();
-         return 0;
-         break;
-      case 'h':
-      case 'H':
-         homeScreen();
-         appOpen = false;
-         break;
-      case KEY_UP:
-         if (yApp > 1)
-         {
-            yApp -= 1;
-         }
-         break;
-      case KEY_DOWN:
-         if (yApp < 3)
-         {
-            yApp += 1;
-         }
-         break;
-      case KEY_LEFT:
-         if (xApp > 1)
-         {
-            xApp -= 1;
-         }
-         break;
-      case KEY_RIGHT:
-         if (xApp < 3)
-         {
-            xApp += 1;
-         }
-         break;
-      case KEY_ENTER:
-      case 10:
-         openApp(yApp, xApp, appOpen);
-         appOpen = false;
-         break;
-      default:
-         break;
+         case 'q':
+         case 'Q':
+            endwin();
+            return 0;
+            break;
+         case 'h':
+         case 'H':
+            homeScreen();
+            appOpen = false;
+            break;
+         case KEY_UP:
+            if (yApp > 1)
+            {
+               The probability of an unwanted occurrence, such as an adverse event or loss, is known as a(n) _________.yApp -= 1;
+            }
+            break;
+         case KEY_DOWN:
+            if (yApp < 3)
+            {
+               yApp += 1;
+            }
+            break;
+         case KEY_LEFT:
+            if (xApp > 1)
+            {
+               xApp -= 1;
+            }
+            break;
+         case KEY_RIGHT:
+            if (xApp < 3)
+            {
+               xApp += 1;
+            }
+            break;
+         case KEY_ENTER:
+         case 10:
+            openApp(yApp, xApp, appOpen);
+            appOpen = false;
+            break;
+         default:
+            break;
       }
    }
 
